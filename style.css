@@ -3,25 +3,30 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: pressstart2p;
+    src: url(PressStart2P-Regular.ttf);
+}
+
 body {
     background-color: black;
-    font-family: sans-serif;
+    font-family: pressstart2p;
 }
 
 img {
-    border-radius: 20px;
+    border-radius: 5%;
     width: 320px;
     height: 320px;
+    border: solid 1px #FFFC00;
 }
 
 h1 {
-    color: white;
-    margin-top: 31px;
     margin-bottom: 8px;
+    font-size:medium
 }
 
 p {
-    color: white;
+    font-size: x-small;
 }
 
 ul {
@@ -34,16 +39,29 @@ li {
 }
 
 a {
-    background-color: limegreen;
-    color: white;
+    background-color: #0003FF;
+    color: #FFFC00;
     padding: 15px;
     text-decoration: none;
     display: block;
     border-radius: 5px;
 }
 
+a:hover {
+    background-color: #FFFC00;
+    color: #0003FF;
+}
+
 footer {
     color: white;
+}
+
+.description {
+    background-color: #FFFC00;
+    color:#0003FF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 31px;
 }
 
 .container {
